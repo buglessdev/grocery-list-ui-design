@@ -1,0 +1,110 @@
+*{
+    /* margin:0;
+    padding:0;
+    box-sizing: border-box; */
+}
+
+:root{
+    --primary-color:#3B3B71;
+    --secondary-color:#8A8AAA;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    width:449px;
+    height: 816px;
+    box-shadow: 5px 5px 20px 15px rgba(0, 0, 0, .2);
+    border-radius: 54px;
+}
+
+.grocery-list-body{
+    margin: 40px 30px;
+    height: 90%;
+    position: relative;
+}
+
+.header{
+    font-family: 'Merriweather', serif;
+}
+
+.header h1{
+    color: var(--primary-color);
+}
+
+.header p{
+    color: var(--secondary-color);
+}
+
+.list-area{
+    font-family: 'Poppins',sans-serif;
+}
+
+.list-area label{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.list-area input{
+    visibility: hidden;
+}
+
+.to-list-area{
+    color:var(--primary-color);
+}
+
+.list-area h4{
+    color: var(--primary-color);
+}
+
+.comp-list-area{
+    color: var(--secondary-color);
+}
+
+.form-control div{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    position: absolute;
+    top:10px;
+    left:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control img{
+    color: grey;
+}
+
+.form-control{
+    padding: 15px 0px;
+    position: relative;
+}
+
+.button-area{
+    width:75px;
+    height: 65px;
+    background-color: var(--primary-color);
+    position: absolute;
+    right:0;
+    bottom:0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.plus-icon img{
+    width: 60px;
+
+}
